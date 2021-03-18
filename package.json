@@ -1,0 +1,31 @@
+{
+  "name": "playlistbot",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/putsan/playlistbot.git"
+  },
+  "keywords": [
+    "bot",
+    "music",
+    "playlist",
+    "colection"
+  ],
+  "author": "Yuriy Putsan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/putsan/playlistbot/issues"
+  },
+  "homepage": "https://github.com/putsan/playlistbot#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "telegraf": "^4.3.0"
+  }
+}
